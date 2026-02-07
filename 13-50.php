@@ -1,6 +1,8 @@
 <?php
 $currentPage = '13-50';
 $currentSong = '13-50';
+$image_path = 'assets/images/' . $currentSong . '/';
+
 $songs = glob('assets/audio/*.mp3');
 $songList = [];
 foreach ($songs as $song) {
@@ -34,7 +36,7 @@ foreach ($songs as $song) {
 
     <div class="masonry-container">
         <div class="masonry-item">
-            <img src="assets/images/IMG_8228.jpeg" alt="13-50 visual 1">
+            <img src="<?php echo $image_path; ?>IMG_8228.jpeg" alt="13-50 visual 1">
         </div>
 
         <div class="masonry-item masonry-item-text">
@@ -47,19 +49,19 @@ foreach ($songs as $song) {
         </div>
 
         <div class="masonry-item">
-            <img src="assets/images/IMG_8229.jpeg" alt="13-50 visual 2">
+            <img src="<?php echo $image_path; ?>IMG_8229.jpeg" alt="13-50 visual 2">
         </div>
 
         <div class="masonry-item">
-            <img src="assets/images/IMG_8231.jpeg" alt="13-50 visual 3">
+            <img src="<?php echo $image_path; ?>IMG_8231.jpeg" alt="13-50 visual 3">
         </div>
 
         <div class="masonry-item">
-            <img src="assets/images/IMG_8232.jpeg" alt="13-50 visual 4">
+            <img src="<?php echo $image_path; ?>IMG_8232.jpeg" alt="13-50 visual 4">
         </div>
 
         <div class="masonry-item">
-            <img src="assets/images/IMG_8234.jpeg" alt="13-50 visual 5">
+            <img src="<?php echo $image_path; ?>IMG_8234.jpeg" alt="13-50 visual 5">
         </div>
     </div>
 
