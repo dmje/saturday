@@ -36,19 +36,20 @@ function isVideo($filename) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>09-37 - The Final Trajectory</title>
-    <link rel="stylesheet" href="style.css">
+    <title><?php echo $currentSong;?> - The Final Trajectory</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/<?php echo $currentSong;?>.css">
 </head>
 <body class="song-page">
     <?php include 'includes/player.php'; ?>
 
     <nav class="breadcrumb">
-        <a href="index.php">saturday</a> / <span>09-37</span>
+        <a href="index.php">saturday</a> / <span><?php echo $currentSong;?></span>
     </nav>
 
     <div class="song-page-header">
         <h1 class="site-title"><a href="index.php">The Final Trajectory</a></h1>
-        <h2 class="song-title-header">09-37</h2>
+        <h2 class="song-title-header"><?php echo $currentSong;?></h2>
     </div>
 
     <div class="masonry-container">
@@ -62,10 +63,10 @@ function isVideo($filename) {
         ?>
             <div class="masonry-item masonry-item-text">
                 <div class="song-explanation">
-                    <h3>09-37</h3>
-                    <p>Recorded on degraded tape loops between 1999-2001, this piece captures the essence of memory decay. The title references a specific frequency modulation discovered during late-night transmission experiments.</p>
-                    <p>Layered synthesizers pass through analog filters, creating warm distortions that evoke childhood recollections filtered through decades. Each repetition degrades slightly, mimicking the way our memories fade and transform over time.</p>
-                    <p>Listen for the recurring melodic fragment at 2:13—a deliberate callback to our earlier work, buried beneath static and time.</p>
+                    <h3><?php echo $currentSong;?></h3>
+                    <p>Here we go. 9.37 am. A very simple little ditty to get into it, just a piano loop. Next, a burst of bass, easing in to the big wash piano melody, drums...</p>
+                    <p>...fuck it, have some jazz too. Cold fingers (alright, I'm out of practice too...), so my timing is all to shit. Given more time...</p>
+                    
                 </div>
             </div>
         <?php

@@ -36,19 +36,20 @@ function isVideo($filename) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>13-50 - The Final Trajectory</title>
-    <link rel="stylesheet" href="style.css">
+    <title><?php echo $currentSong;?> - The Final Trajectory</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/<?php echo $currentSong;?>.css">
 </head>
 <body class="song-page">
     <?php include 'includes/player.php'; ?>
 
     <nav class="breadcrumb">
-        <a href="index.php">saturday</a> / <span>13-50</span>
+        <a href="index.php">saturday</a> / <span><?php echo $currentSong;?></span>
     </nav>
 
     <div class="song-page-header">
         <h1 class="site-title"><a href="index.php">The Final Trajectory</a></h1>
-        <h2 class="song-title-header">13-50</h2>
+        <h2 class="song-title-header"><?php echo $currentSong;?></h2>
     </div>
 
     <div class="masonry-container">
@@ -62,10 +63,9 @@ function isVideo($filename) {
         ?>
             <div class="masonry-item masonry-item-text">
                 <div class="song-explanation">
-                    <h3>13-50</h3>
-                    <p>Recorded on degraded tape loops between 1999-2001, this piece captures the essence of memory decay. The title references a specific frequency modulation discovered during late-night transmission experiments.</p>
-                    <p>Layered synthesizers pass through analog filters, creating warm distortions that evoke childhood recollections filtered through decades. Each repetition degrades slightly, mimicking the way our memories fade and transform over time.</p>
-                    <p>Listen for the recurring melodic fragment at 2:13—a deliberate callback to our earlier work, buried beneath static and time.</p>
+                    <h3><?php echo $currentSong;?></h3>
+                    <p>The last one. I have to say, this one's my favourite, I think..</p>
+                    <p>Piano start again, a lovely relaxed loop, the sort of thing falling off the beat that would normally make me tense. But I've got no time to think about it - which, it turns out, is a good thing.</p>
                 </div>
             </div>
         <?php
