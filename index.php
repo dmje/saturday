@@ -40,10 +40,11 @@ foreach ($songs as $song) {
                     
                     <h3>What, why?</h3>
                     
-                    <p>I wanted to push at the interface between AI and human. I have very little interest in Suno, and I don't understand anyone who uses tools to "generate" music. 
-                    But... I'm also fascinated with the edge between robots and us, and how we can use these tools to enhance our creativity, rather than replace it.</p>
+                    <p>Why not?</p>
                     
-                    <p>All of the music here is mine. There were no robots involved, oh, maybe apart from N-Drums. The rest of it fell out of my brain, and my brain alone. Sorry about that.</p>
+                    <h3>Did the robots do this?</h3>
+                    
+                    <p>All of the music here is mine, and all of the images, and yes, I took them all today. Why have a constraint when you don't stick to the constraint? Anyway - there were no robots involved, oh, maybe apart from N-Drums. The rest of it fell out of my brain, and my brain alone. Sorry about that.</p>
                     
                     <p>But...the website is entirely Claude generated. Claude, with me guiding a bit. It doesn't quite work, and obviously I could spend ages fiddling. But, I'm tired as I write this, and the whole point of this experiment was that there is a time constraint.</p>
                     
@@ -69,7 +70,7 @@ foreach ($songs as $song) {
         </main>
 
         <footer>
-            <p>&copy; <?php echo date('Y'); ?> The Final Trajectory</p>
+            <p>&copy; <?php echo date('Y'); ?> Mike Ellis</p>
         </footer>
     </div>
 
