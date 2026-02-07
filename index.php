@@ -17,15 +17,16 @@ foreach ($songs as $song) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Final Trajectory</title>
-    <link rel="stylesheet" href="assets/css/style.css?v12344">
+    <link rel="stylesheet" href="assets/css/style.css?v2">
     <script defer src="https://simplestats.thirty8.co.uk/script.js" data-website-id="431dec11-3871-416f-90f1-fa919989d3e5"></script>
 </head>
 <body>
+    <canvas id="bifurcation-bg"></canvas>
     <?php include 'includes/player.php'; ?>
 
     <div class="container">
         <header>
-            <h1 class="site-title">saturday 07:02:2026</h1>
+            <h1 class="site-title" data-text="saturday 07:02:2026">saturday 07:02:2026</h1>
             <p class="tagline">an experiment by Mike // <a target="_blank" href="https://variousbits.net">variousbits.net</a></p>
         </header>
 
@@ -77,6 +78,7 @@ foreach ($songs as $song) {
         </footer>
     </div>
 
+    <script src="bifurcation.js"></script>
     <script src="player.js"></script>
 </body>
 </html>

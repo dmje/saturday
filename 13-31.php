@@ -42,6 +42,7 @@ function isVideo($filename) {
     <script defer src="https://simplestats.thirty8.co.uk/script.js" data-website-id="431dec11-3871-416f-90f1-fa919989d3e5"></script>
 </head>
 <body class="song-page">
+    <canvas id="bifurcation-bg"></canvas>
     <?php include 'includes/player.php'; ?>
 
     <nav class="breadcrumb">
@@ -49,7 +50,7 @@ function isVideo($filename) {
     </nav>
 
     <div class="song-page-header">
-        <h1 class="site-title"><a href="index.php">The Final Trajectory</a></h1>
+        <h1 class="site-title" data-text="The Final Trajectory"><a href="index.php">The Final Trajectory</a></h1>
         <h2 class="song-title-header"><?php echo $currentSong;?></h2>
     </div>
 
@@ -92,6 +93,7 @@ function isVideo($filename) {
         <p><a href="index.php">← Back to Home</a></p>
     </footer>
 
+    <script src="bifurcation.js"></script>
     <script src="player.js"></script>
 </body>
 </html>
