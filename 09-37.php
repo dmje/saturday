@@ -1,6 +1,6 @@
 <?php
-$currentPage = '13-50';
-$currentSong = '13-50';
+$currentPage = '09-37';
+$currentSong = '09-37';
 $image_path = 'assets/images/' . $currentSong . '/';
 
 // Get all songs for player
@@ -36,19 +36,19 @@ function isVideo($filename) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>13-50 - The Final Trajectory</title>
+    <title>09-37 - The Final Trajectory</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="song-page">
     <?php include 'includes/player.php'; ?>
 
     <nav class="breadcrumb">
-        <a href="index.php">saturday</a> / <span>13-50</span>
+        <a href="index.php">saturday</a> / <span>09-37</span>
     </nav>
 
     <div class="song-page-header">
         <h1 class="site-title"><a href="index.php">The Final Trajectory</a></h1>
-        <h2 class="song-title-header">13-50</h2>
+        <h2 class="song-title-header">09-37</h2>
     </div>
 
     <div class="masonry-container">
@@ -62,7 +62,7 @@ function isVideo($filename) {
         ?>
             <div class="masonry-item masonry-item-text">
                 <div class="song-explanation">
-                    <h3>13-50</h3>
+                    <h3>09-37</h3>
                     <p>Recorded on degraded tape loops between 1999-2001, this piece captures the essence of memory decay. The title references a specific frequency modulation discovered during late-night transmission experiments.</p>
                     <p>Layered synthesizers pass through analog filters, creating warm distortions that evoke childhood recollections filtered through decades. Each repetition degrades slightly, mimicking the way our memories fade and transform over time.</p>
                     <p>Listen for the recurring melodic fragment at 2:13—a deliberate callback to our earlier work, buried beneath static and time.</p>
