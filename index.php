@@ -17,7 +17,7 @@ foreach ($songs as $song) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Final Trajectory</title>
-    <link rel="stylesheet" href="assets/css/style.css?v3">
+    <link rel="stylesheet" href="assets/css/style.css?v4">
     <script defer src="https://simplestats.thirty8.co.uk/script.js" data-website-id="431dec11-3871-416f-90f1-fa919989d3e5"></script>
 </head>
 <body>
