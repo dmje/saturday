@@ -1,0 +1,37 @@
+/* 13-50 - Deep Orange & Rust (Sunset/Dusk) */
+
+:root {
+    --muted-orange: #c45a2e;
+    --faded-teal: #a87460;
+    --warm-grey: #9a7060;
+}
+
+body.song-page {
+    background: linear-gradient(135deg, #f5e8dc 0%, #ead4c4 100%);
+}
+
+.breadcrumb {
+    background: #3a2a1a;
+}
+
+.song-title-header {
+    color: #c45a2e;
+}
+
+.song-explanation h3 {
+    color: #c45a2e;
+    border-bottom-color: #c45a2e;
+}
+
+.masonry-item {
+    border-color: #f5e8dc;
+}
+
+.song-footer a {
+    color: #c45a2e;
+    border-color: #c45a2e;
+}
+
+.song-footer a:hover {
+    background: #c45a2e;
+}

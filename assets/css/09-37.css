@@ -1,3 +1,37 @@
-.masonry-container{
-	background-color:black !important;
+/* 09-37 - Cool Blues & Teals (Morning/Dawn) */
+
+:root {
+    --muted-orange: #5a8fa8;
+    --faded-teal: #4a7c8c;
+    --warm-grey: #6b8898;
+}
+
+body.song-page {
+    background: linear-gradient(135deg, #e8f1f5 0%, #d4e4ea 100%);
+}
+
+.breadcrumb {
+    background: #2a3f4a;
+}
+
+.song-title-header {
+    color: #5a8fa8;
+}
+
+.song-explanation h3 {
+    color: #5a8fa8;
+    border-bottom-color: #5a8fa8;
+}
+
+.masonry-item {
+    border-color: #e8f1f5;
+}
+
+.song-footer a {
+    color: #5a8fa8;
+    border-color: #5a8fa8;
+}
+
+.song-footer a:hover {
+    background: #5a8fa8;
 }

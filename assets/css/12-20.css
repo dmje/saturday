@@ -1,0 +1,37 @@
+/* 12-20 - Purple & Lavender (Twilight) */
+
+:root {
+    --muted-orange: #9b7db5;
+    --faded-teal: #8a6ea5;
+    --warm-grey: #968a9f;
+}
+
+body.song-page {
+    background: linear-gradient(135deg, #f0ebf5 0%, #e4dce8 100%);
+}
+
+.breadcrumb {
+    background: #3a2a4a;
+}
+
+.song-title-header {
+    color: #9b7db5;
+}
+
+.song-explanation h3 {
+    color: #9b7db5;
+    border-bottom-color: #9b7db5;
+}
+
+.masonry-item {
+    border-color: #f0ebf5;
+}
+
+.song-footer a {
+    color: #9b7db5;
+    border-color: #9b7db5;
+}
+
+.song-footer a:hover {
+    background: #9b7db5;
+}

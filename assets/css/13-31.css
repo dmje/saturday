@@ -1,0 +1,37 @@
+/* 13-31 - Deep Greens & Earthy (Forest/Nature) */
+
+:root {
+    --muted-orange: #6b9070;
+    --faded-teal: #5a7f5e;
+    --warm-grey: #7a8a75;
+}
+
+body.song-page {
+    background: linear-gradient(135deg, #eef5ee 0%, #dfe8df 100%);
+}
+
+.breadcrumb {
+    background: #2a3a2a;
+}
+
+.song-title-header {
+    color: #6b9070;
+}
+
+.song-explanation h3 {
+    color: #6b9070;
+    border-bottom-color: #6b9070;
+}
+
+.masonry-item {
+    border-color: #eef5ee;
+}
+
+.song-footer a {
+    color: #6b9070;
+    border-color: #6b9070;
+}
+
+.song-footer a:hover {
+    background: #6b9070;
+}

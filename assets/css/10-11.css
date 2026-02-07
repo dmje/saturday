@@ -1,0 +1,37 @@
+/* 10-11 - Warm Amber & Golden (Midday Sun) */
+
+:root {
+    --muted-orange: #d4a03c;
+    --faded-teal: #c8a65e;
+    --warm-grey: #a89560;
+}
+
+body.song-page {
+    background: linear-gradient(135deg, #fdf5e6 0%, #f5e8d0 100%);
+}
+
+.breadcrumb {
+    background: #4a3a1a;
+}
+
+.song-title-header {
+    color: #d4a03c;
+}
+
+.song-explanation h3 {
+    color: #d4a03c;
+    border-bottom-color: #d4a03c;
+}
+
+.masonry-item {
+    border-color: #fdf5e6;
+}
+
+.song-footer a {
+    color: #d4a03c;
+    border-color: #d4a03c;
+}
+
+.song-footer a:hover {
+    background: #d4a03c;
+}
