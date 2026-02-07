@@ -17,7 +17,7 @@ foreach ($songs as $song) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Final Trajectory</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v12344">
 </head>
 <body>
     <?php include 'includes/player.php'; ?>
@@ -46,7 +46,7 @@ foreach ($songs as $song) {
                     
                     <p>All of the music here is mine, and all of the images, and yes, I took them all today. Why have a constraint when you don't stick to the constraint? Anyway - there were no robots involved with the music, oh, maybe apart from N-Drums. The rest of it fell out of my brain, and my brain alone. Sorry about that.</p>
                     
-                    <p>But...the website is entirely Claude generated. Claude, with me guiding a bit. It doesn't quite work, and obviously I could spend ages fiddling. But, I'm tired as I write this, and the whole point of this experiment was that there is a time constraint.</p>
+                    <p>But...the website is entirely Claude generated. Claude, with me guiding a bit. It doesn't quite work (sorry about mobile in particular), and obviously I could spend ages fiddling. But, I'm tired as I write this, and the whole point of this experiment was that there is a time constraint.</p>
                     
                     <p>The track names below are indicative of the time that I started them. Basic process: lay something down, move on. Do all 5, then come back and do the (-cough-) "arranging". Sort out the website along the way.</p>
                     
