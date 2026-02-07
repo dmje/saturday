@@ -37,10 +37,8 @@ foreach ($songs as $song) {
                     <p>It's 7th February, 2026 and I'm home alone. Earlier in the week I decided to do some music today - and then that became "mic up the piano". 
                     And then that, dear reader, suddenly became "I know, I'll write 5 songs in a day" and then obviously because that was going to be easy (!) I then thought
                     "No! I'll write 5 songs AND make a little website to show them off. In a day."</p>
-                    
-                    <h3>What, why?</h3>
-                    
-                    <p>Why not?</p>
+                                        
+                    <p>The constraint is this: <strong>nothing</strong> from before today. I'm not allowed to re-hash ideas, take stuff I've recorded or written before. I'm allowed to use loops I've got lying around - but apart from that it's all got to be fresh out of my brain today.</p>
                     
                     <h3>Did the robots do this?</h3>
                     
@@ -50,7 +48,11 @@ foreach ($songs as $song) {
                     
                     <p>The track names below are indicative of the time that I started them. Basic process: lay something down, move on. Do all 5, then come back and do the (-cough-) "arranging". Sort out the website along the way.</p>
                     
-                    <p>It's now 6:19 PM and I'm going for a lie down.</p>
+                    <p>Are the tunes any good? I mean, they're not winning song of the year anytime soon. They're passable, and I'm proud enough of them to make a public website. But really as ever this was about the journey - and spending time noticing that constraints are sometimes a very good thing...</p>
+                    
+                    <p>Anyway. It's now 6:49 PM and I'm going for a lie down.</p>
+                    
+                    <p>Mike x</p>
                     
                 </div>
             </section>
