@@ -18,6 +18,7 @@ foreach ($songs as $song) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Final Trajectory</title>
     <link rel="stylesheet" href="assets/css/style.css?v12344">
+    <script defer src="https://simplestats.thirty8.co.uk/script.js" data-website-id="431dec11-3871-416f-90f1-fa919989d3e5"></script>
 </head>
 <body>
     <?php include 'includes/player.php'; ?>
