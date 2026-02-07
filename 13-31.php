@@ -39,6 +39,7 @@ function isVideo($filename) {
     <title><?php echo $currentSong;?> - The Final Trajectory</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/<?php echo $currentSong;?>.css">
+    <script defer src="https://simplestats.thirty8.co.uk/script.js" data-website-id="431dec11-3871-416f-90f1-fa919989d3e5"></script>
 </head>
 <body class="song-page">
     <canvas id="bifurcation-bg"></canvas>
