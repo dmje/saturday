@@ -44,7 +44,7 @@ foreach ($songs as $song) {
                     
                     <h3>Did the robots do this?</h3>
                     
-                    <p>All of the music here is mine, and all of the images, and yes, I took them all today. Why have a constraint when you don't stick to the constraint? Anyway - there were no robots involved, oh, maybe apart from N-Drums. The rest of it fell out of my brain, and my brain alone. Sorry about that.</p>
+                    <p>All of the music here is mine, and all of the images, and yes, I took them all today. Why have a constraint when you don't stick to the constraint? Anyway - there were no robots involved with the music, oh, maybe apart from N-Drums. The rest of it fell out of my brain, and my brain alone. Sorry about that.</p>
                     
                     <p>But...the website is entirely Claude generated. Claude, with me guiding a bit. It doesn't quite work, and obviously I could spend ages fiddling. But, I'm tired as I write this, and the whole point of this experiment was that there is a time constraint.</p>
                     
