@@ -20,43 +20,48 @@ foreach ($songs as $song) {
     <title>13-50 - The Final Trajectory</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="song-page">
     <?php include 'includes/player.php'; ?>
 
-    <div class="container">
-        <header>
-            <h1 class="site-title"><a href="index.php">The Final Trajectory</a></h1>
-        </header>
-
-        <main class="song-content">
-            <div class="song-header">
-                <h2 class="song-title">13-50</h2>
-            </div>
-
-            <div class="song-description">
-                <p>A journey through analog memories and forgotten frequencies.</p>
-            </div>
-
-            <nav class="song-navigation">
-                <h3>Other Tracks</h3>
-                <ul>
-                    <?php foreach ($songList as $song): ?>
-                        <?php if ($song['name'] !== $currentSong): ?>
-                            <li>
-                                <a href="<?php echo htmlspecialchars($song['page']); ?>" class="song-link">
-                                    <?php echo htmlspecialchars($song['name']); ?>
-                                </a>
-                            </li>
-                        <?php endif; ?>
-                    <?php endforeach; ?>
-                </ul>
-            </nav>
-        </main>
-
-        <footer>
-            <p><a href="index.php">Back to Home</a></p>
-        </footer>
+    <div class="song-page-header">
+        <h1 class="site-title"><a href="index.php">The Final Trajectory</a></h1>
+        <h2 class="song-title-header">13-50</h2>
     </div>
+
+    <div class="masonry-container">
+        <div class="masonry-item">
+            <img src="assets/images/IMG_8228.jpeg" alt="13-50 visual 1">
+        </div>
+
+        <div class="masonry-item masonry-item-text">
+            <div class="song-explanation">
+                <h3>13-50</h3>
+                <p>Recorded on degraded tape loops between 1999-2001, this piece captures the essence of memory decay. The title references a specific frequency modulation discovered during late-night transmission experiments.</p>
+                <p>Layered synthesizers pass through analog filters, creating warm distortions that evoke childhood recollections filtered through decades. Each repetition degrades slightly, mimicking the way our memories fade and transform over time.</p>
+                <p>Listen for the recurring melodic fragment at 2:13—a deliberate callback to our earlier work, buried beneath static and time.</p>
+            </div>
+        </div>
+
+        <div class="masonry-item">
+            <img src="assets/images/IMG_8229.jpeg" alt="13-50 visual 2">
+        </div>
+
+        <div class="masonry-item">
+            <img src="assets/images/IMG_8231.jpeg" alt="13-50 visual 3">
+        </div>
+
+        <div class="masonry-item">
+            <img src="assets/images/IMG_8232.jpeg" alt="13-50 visual 4">
+        </div>
+
+        <div class="masonry-item">
+            <img src="assets/images/IMG_8234.jpeg" alt="13-50 visual 5">
+        </div>
+    </div>
+
+    <footer class="song-footer">
+        <p><a href="index.php">← Back to Home</a></p>
+    </footer>
 
     <script src="player.js"></script>
 </body>
