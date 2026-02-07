@@ -73,6 +73,33 @@ header {
     font-size: 1.2em;
     color: var(--warm-grey);
     font-style: italic;
+    margin-top: 15px;
+}
+
+/* Home About Section */
+.home-about {
+    margin: 60px auto;
+    max-width: 700px;
+    text-align: left;
+}
+
+.about-text {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 40px 50px;
+    border-left: 5px solid var(--muted-orange);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-text p {
+    font-size: 1.05em;
+    line-height: 1.9;
+    margin-bottom: 25px;
+    color: var(--dark-brown);
+    text-align: justify;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
 }
 
 /* Song List */
