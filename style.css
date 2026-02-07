@@ -279,12 +279,41 @@ body::before {
     opacity: 0.3;
 }
 
+/* Breadcrumb */
+.breadcrumb {
+    padding: 15px 20px;
+    background: var(--dark-brown);
+    color: var(--vintage-beige);
+    font-size: 0.95em;
+    letter-spacing: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.breadcrumb a {
+    color: var(--muted-orange);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: var(--faded-teal);
+}
+
+.breadcrumb span {
+    color: var(--vintage-beige);
+}
+
 /* Song Page Header */
 .song-page-header {
     text-align: center;
     padding: 30px 20px 20px;
     background: rgba(255, 255, 255, 0.3);
     border-bottom: 3px solid var(--dark-brown);
+    margin-top: 47px;
 }
 
 .song-page-header .site-title {
@@ -309,6 +338,7 @@ body::before {
     background: white;
     max-width: 100%;
     margin: 0;
+    padding-top: 67px;
 }
 
 @media (max-width: 1200px) {
@@ -341,6 +371,28 @@ body::before {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
+}
+
+/* Vary image heights for masonry effect */
+.masonry-item:nth-child(1) img {
+    height: 400px;
+}
+
+.masonry-item:nth-child(3) img {
+    height: 550px;
+}
+
+.masonry-item:nth-child(4) img {
+    height: 300px;
+}
+
+.masonry-item:nth-child(5) img {
+    height: 480px;
+}
+
+.masonry-item:nth-child(6) img {
+    height: 350px;
 }
 
 /* Black Text Box */

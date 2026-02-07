@@ -23,6 +23,10 @@ foreach ($songs as $song) {
 <body class="song-page">
     <?php include 'includes/player.php'; ?>
 
+    <nav class="breadcrumb">
+        <a href="index.php">saturday</a> / <span>13-50</span>
+    </nav>
+
     <div class="song-page-header">
         <h1 class="site-title"><a href="index.php">The Final Trajectory</a></h1>
         <h2 class="song-title-header">13-50</h2>
